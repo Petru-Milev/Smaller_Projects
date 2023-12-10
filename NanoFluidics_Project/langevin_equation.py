@@ -49,7 +49,7 @@ def run_simulation(object, pos):
     x_array = []
     y_array = []
     z_array = []
-
+    count = 0
     #while (z > object.particle_radius) or (np.sqrt(x**2 + y**2) > object.pore_radius - 2*object.particle_radius):
     while True:
         x_sum += x*1e+9
@@ -69,7 +69,8 @@ def run_simulation(object, pos):
             break
         elif z < 0:
             z = -z"""
-        print(f"x={x*1e+9}nm, y={y*1e+9}nm, z={z*1e+9}nm")
+        if count % 1000000 == 0:
+            print(f"x={x*1e+9}nm, y={y*1e+9}nm, z={z*1e+9}nm")
         #x_array.append(x)
         #y_array.append(y)
         #z_array.append(z)
@@ -143,10 +144,16 @@ gamma = 6*pi*1*10^(-3)Pa*s * 1*10^(-9)m = 1.88*10^(-11) kg/s
 D = 2kB*T/gamma
 D = 2*1.38*10^(-23)*300/1.88*10^(-11) = 2.06*10^(-9) m^2/s
 """
-system_one = Physical_System(name = "System_one_e-9", dt = 1e-15, t = 1e-11, gamma = 1.88e-11, particle_radius = 1*1e-9, pore_radius = 5*1e-9, z = 1.0, pore_position = 0.0, D = 4.40*1e-9, electric_field = np.array([0.0, 0.0, 0.0])) #-1.4 * 1e-10
+
+test = Physical_System(name = "Test_e-11", dt = 1e-15, t = 1e-11, gamma = 1.88e-11, particle_radius = 1*1e-9, pore_radius = 5*1e-9, z = 1.0, pore_position = 0.0, D = 4.40*1e-9, electric_field = np.array([0.0, 0.0, 0.0])) #-1.4 * 1e-10
+system_one = Physical_System(name = "System_one_e-9", dt = 1e-15, t = 1e-9, gamma = 1.88e-11, particle_radius = 1*1e-9, pore_radius = 5*1e-9, z = 1.0, pore_position = 0.0, D = 4.40*1e-9, electric_field = np.array([0.0, 0.0, 0.0])) #-1.4 * 1e-10
 system_two = Physical_System(name = "System_two_e-8", dt = 1e-15, t = 1e-8, gamma = 1.88e-11, particle_radius = 1*1e-9, pore_radius = 5*1e-9, z = 1.0, pore_position = 0.0, D = 4.40*1e-9, electric_field = np.array([0.0, 0.0, 0.0])) #-1.4 * 1e-10
-system_three = Physical_System(name = "System_one_e-7", dt = 1e-15, t = 1e-7, gamma = 1.88e-11, particle_radius = 1*1e-9, pore_radius = 5*1e-9, z = 1.0, pore_position = 0.0, D = 4.40*1e-9, electric_field = np.array([0.0, 0.0, 0.0])) #-1.4 * 1e-10
+system_three = Physical_System(name = "System_three_e-7", dt = 1e-15, t = 1e-7, gamma = 1.88e-11, particle_radius = 1*1e-9, pore_radius = 5*1e-9, z = 1.0, pore_position = 0.0, D = 4.40*1e-9, electric_field = np.array([0.0, 0.0, 0.0])) #-1.4 * 1e-10
+system_four = Physical_System(name = "System_four_e-6", dt = 1e-15, t = 1e-6, gamma = 1.88e-11, particle_radius = 1*1e-9, pore_radius = 5*1e-9, z = 1.0, pore_position = 0.0, D = 4.40*1e-9, electric_field = np.array([0.0, 0.0, 0.0])) #-1.4 * 1e-10
 pos = np.array([0.0, 0, 0]) #Initial coordinates of the particle
+pos = np.array([0.0, 0, 0]) #Initial coordinates of the particle
+run_simulation(test, pos)
 run_simulation(system_one, pos)
 run_simulation(system_two, pos)
 run_simulation(system_three, pos)
+run_simulation(system_four, pos)
