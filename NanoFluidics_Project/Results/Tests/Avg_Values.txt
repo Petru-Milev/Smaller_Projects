@@ -1,0 +1,35 @@
+--------------------------------------------------
+Values in meters:
+Number of simulations is 2057
+Total time is 1e-09
+dt is 1e-15
+n_steps = t/dt = 1000000.0
+Average values of position:
+(1.1049417889195728797e-12, -3.1869749556376699798e-11, 5.169287175842829084e-11)
+Average square values of position:
+(3.9098256730297843542e-18, 3.9772777791916524326e-18, 3.8582896391172019865e-18)
+4*sqrt(2Dt/n_simulations) is 1.7638954548096945e-10
+2Dt is 4e-18
+
+
+--------------------------------------------------
+Values in nanometers:
+Number of simulations is 2057
+Total time is 1e-09 s
+dt is 1e-15 s
+n_steps = t/dt = 1000000.0
+Average values of position:
+0.0011, -0.0319, 0.0517 nm
+Average square values of position:
+3.9098, 3.9773, 3.8583 nm^2
+4*sqrt(2Dt/n_simulations) is 0.1764 nm
+2Dt is 4.0000 nm^2 
+
+Difference between expected values and the ones we got (in nm):
+x_avg - 4*sqrt(2Dt/n_simulations) is -0.1753 nm
+y_avg - 4*sqrt(2Dt/n_simulations) is -0.2083 nm
+z_avg - 4*sqrt(2Dt/n_simulations) is -0.1247 nm
+x_avg**2 - 2Dt is -0.0902 nm^2
+y_avg**2 - 2Dt is -0.0227 nm^2
+z_avg**2 - 2Dt is -0.1417 nm^2
+--------------------------------------------------

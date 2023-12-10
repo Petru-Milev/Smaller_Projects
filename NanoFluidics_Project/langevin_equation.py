@@ -18,7 +18,7 @@ class Physical_System:
         self.particle_radius = particle_radius
         self.pore_radius = pore_radius
         self.D = D
-        self.e = 1 
+        self.e = 1.6021766e-19
         self.z = z 
         if electric_field.any():
             self.electric_field = electric_field
@@ -32,7 +32,7 @@ def solve_langevin(x, z, E, gamma, D, dt, e = 1.6021766e-19):
 def run_simulation(object, pos):
     current_directory = os.getcwd()
     path_log = os.path.join(current_directory, object.name + ".txt")
-    with open(path_log, "w") as file:
+    with open(path_log, "a") as file:
         pass
     x_sum = 0
     y_sum = 0
@@ -69,8 +69,8 @@ def run_simulation(object, pos):
             break
         elif z < 0:
             z = -z"""
-        if count % 1000000 == 0:
-            print(f"x={x*1e+9}nm, y={y*1e+9}nm, z={z*1e+9}nm")
+        #if count % 1000000 == 0:
+            #print(f"x={x*1e+9}nm, y={y*1e+9}nm, z={z*1e+9}nm")
         #x_array.append(x)
         #y_array.append(y)
         #z_array.append(z)
@@ -91,12 +91,15 @@ def run_simulation(object, pos):
             yy_average = yy_sum/n
             zz_average = zz_sum/n
             with open(path_log, "a") as file:
+                file.write("--------------------------------\n")
                 file.write(f"Average values of possition:\n{x_average*1e-9, y_average*1e-9, z_average*1e-9}\n")
                 file.write(f"Average square values of possition:\n{xx_average*(1e-9)**2, yy_average*(1e-9)**2, zz_average*(1e-9)**2}\n")
-                file.write(f"sqrt(2Dt)*3.4 is {np.sqrt(2*object.D*t)*3.4}\n")
-                file.write(f"2Dt is {2*object.D*t}\n\n")
+                file.write(f"sqrt(2Dh)*3.4 is {np.sqrt(2*object.D*object.dt)*3.4}\n")
+                file.write(f"2Dh is {2*object.D*object.dt}\n\n")
+                file.write(f"Final position in nm is {x*1e+9, y*1e+9, z*1e+9}\n")
+                file.write(f"Square of the final position in nm is {(x*1e+9)**2, (y*1e+9)**2, (z*1e+9)**2}\n")
                 #print all the characteristis of the object
-                file.write(f"Properties of the object:\n")
+                """file.write(f"Properties of the object:\n")
                 file.write(f"Name is {object.name}\n")
                 file.write(f"dt is {object.dt}\n")
                 file.write(f"t is {t}\n")
@@ -104,12 +107,12 @@ def run_simulation(object, pos):
                 file.write(f"particle_radius is {object.particle_radius}\n")
                 file.write(f"pore_radius is {object.pore_radius}\n")
                 file.write(f"z is {object.z}\n")
-                file.write(f"D is {object.D}\n")
-            print(f"Average position is (in nm) {x_average*1e-9, y_average*1e-9, z_average*1e-9}")
-            print(f"Average square position is {xx_average*(1e-9)**2, yy_average*(1e-9)**2, zz_average*(1e-9)**2}")
-            print(f"sqrt(2Dt)*3.4 is {np.sqrt(2*object.D*t)*3.4}")
-            print(f"2Dt is {2*object.D*t}")
-            print("--------------------------------")
+                file.write(f"D is {object.D}\n")"""
+            #print(f"Average position is (in nm) {x_average*1e-9, y_average*1e-9, z_average*1e-9}")
+            #print(f"Average square position is {xx_average*(1e-9)**2, yy_average*(1e-9)**2, zz_average*(1e-9)**2}")
+            #print(f"sqrt(2Dh)*3.4 is {np.sqrt(2*object.D*object.dt)*3.4}")
+            #print(f"2Dh is {2*object.D*object.dt}")
+            #print("--------------------------------")
             break
     
     print(f"t is {t}")
@@ -143,17 +146,22 @@ gamma = 6*pi*eta*a
 gamma = 6*pi*1*10^(-3)Pa*s * 1*10^(-9)m = 1.88*10^(-11) kg/s
 D = 2kB*T/gamma
 D = 2*1.38*10^(-23)*300/1.88*10^(-11) = 2.06*10^(-9) m^2/s
+Gamma = 2kB*T/D
+Gamma = 2*1.38*10^(-23)*300/2.06*10^(-9) = 4.02*10^(-12) kg/s
 """
 
-test = Physical_System(name = "Test_e-11", dt = 1e-15, t = 1e-11, gamma = 1.88e-11, particle_radius = 1*1e-9, pore_radius = 5*1e-9, z = 1.0, pore_position = 0.0, D = 4.40*1e-9, electric_field = np.array([0.0, 0.0, 0.0])) #-1.4 * 1e-10
-system_one = Physical_System(name = "System_one_e-9", dt = 1e-15, t = 1e-9, gamma = 1.88e-11, particle_radius = 1*1e-9, pore_radius = 5*1e-9, z = 1.0, pore_position = 0.0, D = 4.40*1e-9, electric_field = np.array([0.0, 0.0, 0.0])) #-1.4 * 1e-10
-system_two = Physical_System(name = "System_two_e-8", dt = 1e-15, t = 1e-8, gamma = 1.88e-11, particle_radius = 1*1e-9, pore_radius = 5*1e-9, z = 1.0, pore_position = 0.0, D = 4.40*1e-9, electric_field = np.array([0.0, 0.0, 0.0])) #-1.4 * 1e-10
-system_three = Physical_System(name = "System_three_e-7", dt = 1e-15, t = 1e-7, gamma = 1.88e-11, particle_radius = 1*1e-9, pore_radius = 5*1e-9, z = 1.0, pore_position = 0.0, D = 4.40*1e-9, electric_field = np.array([0.0, 0.0, 0.0])) #-1.4 * 1e-10
-system_four = Physical_System(name = "System_four_e-6", dt = 1e-15, t = 1e-6, gamma = 1.88e-11, particle_radius = 1*1e-9, pore_radius = 5*1e-9, z = 1.0, pore_position = 0.0, D = 4.40*1e-9, electric_field = np.array([0.0, 0.0, 0.0])) #-1.4 * 1e-10
+test = Physical_System(name = "Test_e-11", dt = 1e-15, t = 1e-11, gamma = 4.02e-12, particle_radius = 1*1e-9, pore_radius = 5*1e-9, z = 1.0, pore_position = 0.0, D = 2*1e-9, electric_field = np.array([0.0, 0.0, 0.0])) #-1.4 * 1e-10
+system_one = Physical_System(name = "System_one_e-9", dt = 1e-15, t = 1e-9, gamma = 4.02e-12, particle_radius = 1*1e-9, pore_radius = 5*1e-9, z = 1.0, pore_position = 0.0, D = 2*1e-9, electric_field = np.array([0.0, 0.0, 0.0])) #-1.4 * 1e-10
+system_two = Physical_System(name = "System_two_e-8", dt = 1e-15, t = 1e-8, gamma = 4.02e-12, particle_radius = 1*1e-9, pore_radius = 5*1e-9, z = 1.0, pore_position = 0.0, D = 2*1e-9, electric_field = np.array([0.0, 0.0, 0.0])) #-1.4 * 1e-10
+system_three = Physical_System(name = "System_three_e-7", dt = 1e-15, t = 1e-7, gamma = 4.02e-12, particle_radius = 1*1e-9, pore_radius = 5*1e-9, z = 1.0, pore_position = 0.0, D = 2*1e-9, electric_field = np.array([0.0, 0.0, 0.0])) #-1.4 * 1e-10
+system_four = Physical_System(name = "System_four_e-6", dt = 1e-15, t = 1e-6, gamma = 4.02e-12, particle_radius = 1*1e-9, pore_radius = 5*1e-9, z = 1.0, pore_position = 0.0, D = 2*1e-9, electric_field = np.array([0.0, 0.0, 0.0])) #-1.4 * 1e-10
 pos = np.array([0.0, 0, 0]) #Initial coordinates of the particle
 pos = np.array([0.0, 0, 0]) #Initial coordinates of the particle
-run_simulation(test, pos)
-run_simulation(system_one, pos)
-run_simulation(system_two, pos)
-run_simulation(system_three, pos)
-run_simulation(system_four, pos)
+#run_simulation(test, pos)
+#run_simulation(system_one, pos)
+#run_simulation(system_two, pos)
+#run_simulation(system_three, pos)
+#run_simulation(system_four, pos)
+
+for i in range(1,10000):
+    run_simulation(system_one, pos)
