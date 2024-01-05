@@ -3563,3 +3563,587 @@ Square of the position is 0.4553, 4.0926, 65.9173 nm^2
 Position number 6, time 0.0000
 Position is 1.3734, -0.1426, 5.0755 nm
 Square of the position is 1.8861, 0.0203, 25.7607 nm^2
+Position number 1, time 0.0000
+Position is 0.0000, 0.0000, 6.0000 nm
+Square of the position is 0.0000, 0.0000, 36.0000 nm^2
+Position number 2, time 0.0000
+Position is -0.1489, -0.0424, 5.3934 nm
+Square of the position is 0.0222, 0.0018, 29.0886 nm^2
+Position number 1, time 0.0000
+Position is 0.0000, 0.0000, 6.0000 nm
+Square of the position is 0.0000, 0.0000, 36.0000 nm^2
+Position number 2, time 0.0000
+Position is 0.4818, 0.0372, 4.5663 nm
+Square of the position is 0.2321, 0.0014, 20.8512 nm^2
+Position number 3, time 0.0000
+Position is 1.2911, 0.0548, 5.0152 nm
+Square of the position is 1.6671, 0.0030, 25.1518 nm^2
+Position number 4, time 0.0000
+Position is 1.3937, 0.1123, 5.5350 nm
+Square of the position is 1.9424, 0.0126, 30.6362 nm^2
+Position number 5, time 0.0000
+Position is 1.5118, 1.1576, 5.4926 nm
+Square of the position is 2.2856, 1.3400, 30.1682 nm^2
+Position number 6, time 0.0000
+Position is 1.0415, 0.7731, 3.8284 nm
+Square of the position is 1.0847, 0.5977, 14.6568 nm^2
+Position number 7, time 0.0000
+Position is 1.1386, 0.6128, 3.5776 nm
+Square of the position is 1.2965, 0.3756, 12.7993 nm^2
+Position number 8, time 0.0000
+Position is 1.5231, -0.1007, 4.5285 nm
+Square of the position is 2.3199, 0.0101, 20.5076 nm^2
+Position number 9, time 0.0000
+Position is 1.4140, -0.4413, 4.0847 nm
+Square of the position is 1.9993, 0.1948, 16.6847 nm^2
+Position number 10, time 0.0000
+Position is 1.1617, -0.8900, 3.6880 nm
+Square of the position is 1.3495, 0.7922, 13.6015 nm^2
+Average values of possition:
+(-1.6796298860261446e-16, -6.774894867408037e-16, 3.3546166196313806e-15)
+Average square values of possition:
+(2.8211565540321985e-26, 4.589920046443176e-25, 1.125345266470707e-23)
+sqrt(2Dh)*3.4 is 6.799999999999999e-12
+2Dh is 4.0000000000000004e-24
+
+Final position in nm is (-0.16796298860261444, -0.6774894867408037, 3.3546166196313805)
+Square of the final position in nm is (0.028211565540321986, 0.4589920046443176, 11.25345266470707)
+--------------------------------
+Position number 1, time 0.0000
+Position is 0.0000, 0.0000, 6.0000 nm
+Square of the position is 0.0000, 0.0000, 36.0000 nm^2
+Position number 2, time 0.0000
+Position is -0.9841, 1.0574, 6.4094 nm
+Square of the position is 0.9684, 1.1181, 41.0807 nm^2
+Position number 3, time 0.0000
+Position is -0.1732, 0.5420, 6.9401 nm
+Square of the position is 0.0300, 0.2938, 48.1651 nm^2
+Position number 4, time 0.0000
+Position is -0.2915, 0.7109, 7.4532 nm
+Square of the position is 0.0850, 0.5054, 55.5508 nm^2
+Position number 5, time 0.0000
+Position is 0.9754, 1.0042, 6.9577 nm
+Square of the position is 0.9513, 1.0083, 48.4102 nm^2
+Position number 6, time 0.0000
+Position is 0.3375, -0.2123, 7.2461 nm
+Square of the position is 0.1139, 0.0451, 52.5053 nm^2
+Position number 7, time 0.0000
+Position is 0.0526, -0.2619, 6.7560 nm
+Square of the position is 0.0028, 0.0686, 45.6433 nm^2
+Position number 8, time 0.0000
+Position is 0.5325, -0.5848, 6.4993 nm
+Square of the position is 0.2835, 0.3420, 42.2404 nm^2
+Position number 9, time 0.0000
+Position is 0.3602, -1.0468, 5.4921 nm
+Square of the position is 0.1297, 1.0959, 30.1633 nm^2
+Position number 10, time 0.0000
+Position is 0.7191, -0.1845, 6.8316 nm
+Square of the position is 0.5171, 0.0340, 46.6709 nm^2
+Average values of possition:
+(3.9339415967743548e-16, -2.760695729202147e-16, 5.790386590665878e-15)
+Average square values of possition:
+(1.547589648683156e-25, 7.621440909234973e-26, 3.352857686936321e-23)
+sqrt(2Dh)*3.4 is 6.799999999999999e-12
+2Dh is 4.0000000000000004e-24
+
+Final position in nm is (0.39339415967743546, -0.27606957292021467, 5.790386590665878)
+Square of the final position in nm is (0.15475896486831558, 0.07621440909234972, 33.52857686936321)
+--------------------------------
+Position number 1, time 0.0000
+Position is 0.0000, 0.0000, 6.0000 nm
+Square of the position is 0.0000, 0.0000, 36.0000 nm^2
+Position number 2, time 0.0000
+Position is 0.5233, 0.0254, 6.1015 nm
+Square of the position is 0.2739, 0.0006, 37.2279 nm^2
+Position number 3, time 0.0000
+Position is 0.5218, 0.3807, 6.5500 nm
+Square of the position is 0.2723, 0.1450, 42.9028 nm^2
+Position number 4, time 0.0000
+Position is 0.3195, 0.4157, 8.2674 nm
+Square of the position is 0.1021, 0.1728, 68.3497 nm^2
+Position number 1, time 0.0000
+Position is 0.0000, 0.0000, 6.0000 nm
+Square of the position is 0.0000, 0.0000, 36.0000 nm^2
+Position number 2, time 0.0000
+Position is 1.3677, 0.2419, 5.0806 nm
+Square of the position is 1.8706, 0.0585, 25.8129 nm^2
+Position number 3, time 0.0000
+Position is 1.6425, -0.5570, 5.0765 nm
+Square of the position is 2.6977, 0.3102, 25.7710 nm^2
+Position number 4, time 0.0000
+Position is 1.2832, -0.4902, 5.5073 nm
+Square of the position is 1.6466, 0.2403, 30.3304 nm^2
+Position number 5, time 0.0000
+Position is 0.2991, 0.0050, 5.2953 nm
+Square of the position is 0.0895, 0.0000, 28.0400 nm^2
+Position number 6, time 0.0000
+Position is -0.6212, -0.4121, 5.1379 nm
+Square of the position is 0.3859, 0.1698, 26.3983 nm^2
+Position number 7, time 0.0000
+Position is 0.1402, 0.1027, 5.2248 nm
+Square of the position is 0.0197, 0.0105, 27.2985 nm^2
+Position number 8, time 0.0000
+Position is 1.5461, 0.9769, 5.5509 nm
+Square of the position is 2.3905, 0.9543, 30.8125 nm^2
+Position number 9, time 0.0000
+Position is 1.5295, -0.2287, 4.7216 nm
+Square of the position is 2.3393, 0.0523, 22.2931 nm^2
+Position number 10, time 0.0000
+Position is 1.6661, -0.8212, 5.1984 nm
+Square of the position is 2.7760, 0.6744, 27.0237 nm^2
+Average values of possition:
+(1.5767968180564332e-15, -6.605528312310223e-16, 5.0371768255436326e-15)
+Average square values of possition:
+(2.486288205432892e-24, 4.363300428473194e-25, 2.5373150371793823e-23)
+sqrt(2Dh)*3.4 is 6.799999999999999e-12
+2Dh is 4.0000000000000004e-24
+
+Final position in nm is (1.5767968180564331, -0.6605528312310223, 5.037176825543632)
+Square of the final position in nm is (2.486288205432892, 0.43633004284731935, 25.373150371793823)
+--------------------------------
+Position number 1, time 0.0000
+Position is 0.0000, 0.0000, 6.0000 nm
+Square of the position is 0.0000, 0.0000, 36.0000 nm^2
+Position number 2, time 0.0000
+Position is -0.3837, -0.4234, 6.2348 nm
+Square of the position is 0.1472, 0.1793, 38.8722 nm^2
+Position number 3, time 0.0000
+Position is 0.8324, -0.4339, 6.0197 nm
+Square of the position is 0.6929, 0.1882, 36.2365 nm^2
+Position number 4, time 0.0000
+Position is -0.0393, -0.4448, 6.3864 nm
+Square of the position is 0.0015, 0.1979, 40.7862 nm^2
+Position number 5, time 0.0000
+Position is -0.6695, -1.0945, 5.3277 nm
+Square of the position is 0.4482, 1.1978, 28.3839 nm^2
+Position number 1, time 0.0000
+Position is 0.0000, 0.0000, 6.0000 nm
+Square of the position is 0.0000, 0.0000, 36.0000 nm^2
+Position number 2, time 0.0000
+Position is 0.2694, 0.0272, 5.9889 nm
+Square of the position is 0.0726, 0.0007, 35.8665 nm^2
+Position number 3, time 0.0000
+Position is 1.1652, 0.2905, 6.1461 nm
+Square of the position is 1.3577, 0.0844, 37.7742 nm^2
+Position number 4, time 0.0000
+Position is 1.0413, 0.3830, 6.0490 nm
+Square of the position is 1.0842, 0.1467, 36.5905 nm^2
+Position number 5, time 0.0000
+Position is -0.0119, 0.2642, 5.1773 nm
+Square of the position is 0.0001, 0.0698, 26.8040 nm^2
+Position number 6, time 0.0000
+Position is -0.1678, 0.6459, 6.2145 nm
+Square of the position is 0.0281, 0.4172, 38.6199 nm^2
+Position number 7, time 0.0000
+Position is 0.1837, -0.6253, 6.4936 nm
+Square of the position is 0.0337, 0.3910, 42.1671 nm^2
+Position number 8, time 0.0000
+Position is -0.9728, -0.4692, 6.6836 nm
+Square of the position is 0.9463, 0.2202, 44.6710 nm^2
+Position number 9, time 0.0000
+Position is -0.8593, -0.1844, 7.3868 nm
+Square of the position is 0.7384, 0.0340, 54.5653 nm^2
+Position number 10, time 0.0000
+Position is -0.5503, -0.6073, 7.0692 nm
+Square of the position is 0.3028, 0.3688, 49.9740 nm^2
+Average values of possition:
+(-2.9824420047380433e-16, -1.2228779227424286e-15, 7.5193455938443e-15)
+Average square values of possition:
+(8.89496031162588e-26, 1.4954304139308367e-24, 5.654055815966569e-23)
+sqrt(2Dh)*3.4 is 6.799999999999999e-12
+2Dh is 4.0000000000000004e-24
+
+Final position in nm is (-0.29824420047380434, -1.2228779227424285, 7.5193455938442995)
+Square of the final position in nm is (0.0889496031162588, 1.4954304139308368, 56.54055815966568)
+--------------------------------
+Position number 1, time 0.0000
+Position is 0.0000, 0.0000, 6.0000 nm
+Square of the position is 0.0000, 0.0000, 36.0000 nm^2
+Position number 2, time 0.0000
+Position is -0.0994, -0.2136, 5.2223 nm
+Square of the position is 0.0099, 0.0456, 27.2724 nm^2
+Position number 3, time 0.0000
+Position is 1.0129, -0.2783, 5.6719 nm
+Square of the position is 1.0260, 0.0774, 32.1705 nm^2
+Position number 4, time 0.0000
+Position is 0.7118, -1.0346, 6.5908 nm
+Square of the position is 0.5067, 1.0704, 43.4386 nm^2
+Position number 5, time 0.0000
+Position is 0.8370, -1.8258, 6.1653 nm
+Square of the position is 0.7006, 3.3337, 38.0115 nm^2
+Position number 6, time 0.0000
+Position is 1.6387, -1.4137, 5.6831 nm
+Square of the position is 2.6854, 1.9987, 32.2976 nm^2
+Position number 7, time 0.0000
+Position is 1.7771, -1.3103, 5.5211 nm
+Square of the position is 3.1581, 1.7169, 30.4828 nm^2
+Position number 8, time 0.0000
+Position is 0.9366, -1.8341, 5.2570 nm
+Square of the position is 0.8773, 3.3640, 27.6359 nm^2
+Position number 9, time 0.0000
+Position is 1.8382, -1.2748, 6.1915 nm
+Square of the position is 3.3791, 1.6250, 38.3350 nm^2
+Position number 10, time 0.0000
+Position is 1.8352, -1.7246, 4.7160 nm
+Square of the position is 3.3679, 2.9744, 22.2410 nm^2
+Average values of possition:
+(2.457610593665367e-15, -1.8971229085658065e-15, 5.27620474305092e-15)
+Average square values of possition:
+(6.039849830096236e-24, 3.599075330205186e-24, 2.783833649059302e-23)
+sqrt(2Dh)*3.4 is 6.799999999999999e-12
+2Dh is 4.0000000000000004e-24
+
+Final position in nm is (2.4576105936653665, -1.8971229085658066, 5.276204743050919)
+Square of the final position in nm is (6.0398498300962356, 3.5990753302051854, 27.83833649059302)
+--------------------------------
+Position number 1, time 0.0000
+Position is 0.0000, 0.0000, 6.0000 nm
+Square of the position is 0.0000, 0.0000, 36.0000 nm^2
+Position number 2, time 0.0000
+Position is 0.3509, 0.1953, 5.3495 nm
+Square of the position is 0.1231, 0.0381, 28.6166 nm^2
+Position number 3, time 0.0000
+Position is 0.2775, 0.7987, 5.4887 nm
+Square of the position is 0.0770, 0.6380, 30.1264 nm^2
+Position number 4, time 0.0000
+Position is -0.4184, 1.1815, 5.6304 nm
+Square of the position is 0.1750, 1.3959, 31.7015 nm^2
+Position number 5, time 0.0000
+Position is 0.3431, 0.6731, 4.7190 nm
+Square of the position is 0.1177, 0.4530, 22.2685 nm^2
+Position number 6, time 0.0000
+Position is -0.3457, 1.5222, 4.7197 nm
+Square of the position is 0.1195, 2.3171, 22.2759 nm^2
+Position number 7, time 0.0000
+Position is -0.8249, 1.0358, 4.5244 nm
+Square of the position is 0.6805, 1.0728, 20.4701 nm^2
+Position number 8, time 0.0000
+Position is 0.0717, 1.0430, 6.0602 nm
+Square of the position is 0.0051, 1.0879, 36.7265 nm^2
+Position number 9, time 0.0000
+Position is -0.4791, 0.5977, 6.9674 nm
+Square of the position is 0.2296, 0.3572, 48.5442 nm^2
+Position number 10, time 0.0000
+Position is -0.0462, -0.1805, 7.6893 nm
+Square of the position is 0.0021, 0.0326, 59.1252 nm^2
+Average values of possition:
+(-1.1386698273283603e-15, -6.584844418593078e-16, 7.248431116514725e-15)
+Average square values of possition:
+(1.2965689756679977e-24, 4.336017601707641e-25, 5.253975365085889e-23)
+sqrt(2Dh)*3.4 is 6.799999999999999e-12
+2Dh is 4.0000000000000004e-24
+
+Final position in nm is (-1.1386698273283602, -0.6584844418593078, 7.248431116514724)
+Square of the final position in nm is (1.2965689756679977, 0.4336017601707641, 52.53975365085889)
+--------------------------------
+Position number 1, time 0.0000
+Position is 0.0000, 0.0000, 6.0000 nm
+Square of the position is 0.0000, 0.0000, 36.0000 nm^2
+Position number 2, time 0.0000
+Position is 0.2370, -0.2578, 6.9316 nm
+Square of the position is 0.0562, 0.0665, 48.0471 nm^2
+Position number 1, time 0.0000
+Position is 0.0000, 0.0000, 6.0000 nm
+Square of the position is 0.0000, 0.0000, 36.0000 nm^2
+Position number 2, time 0.0000
+Position is -1.2277, 0.6008, 5.0744 nm
+Square of the position is 1.5073, 0.3609, 25.7497 nm^2
+Position number 3, time 0.0000
+Position is -2.1627, 0.8497, 4.6805 nm
+Square of the position is 4.6774, 0.7220, 21.9073 nm^2
+Position number 4, time 0.0000
+Position is -2.3012, 0.4435, 3.9701 nm
+Square of the position is 5.2956, 0.1967, 15.7615 nm^2
+Position number 5, time 0.0000
+Position is -2.8470, -0.1794, 4.2584 nm
+Square of the position is 8.1053, 0.0322, 18.1339 nm^2
+Position number 6, time 0.0000
+Position is -2.2392, 0.0966, 4.9907 nm
+Square of the position is 5.0140, 0.0093, 24.9068 nm^2
+Position number 7, time 0.0000
+Position is -2.3952, 0.5754, 4.6417 nm
+Square of the position is 5.7370, 0.3311, 21.5454 nm^2
+Position number 8, time 0.0000
+Position is -3.0510, -0.2515, 4.4097 nm
+Square of the position is 9.3086, 0.0633, 19.4453 nm^2
+Position number 9, time 0.0000
+Position is -2.8846, -0.1153, 4.5543 nm
+Square of the position is 8.3208, 0.0133, 20.7417 nm^2
+Position number 10, time 0.0000
+Position is -2.3363, 0.3268, 4.8292 nm
+Square of the position is 5.4582, 0.1068, 23.3211 nm^2
+Average values of possition:
+(-1.95015559037413e-15, -2.7055758278436973e-17, 5.561530717281547e-15)
+Average square values of possition:
+(3.803106826667471e-24, 7.320140560212107e-28, 3.093062391926619e-23)
+sqrt(2Dh)*3.4 is 6.799999999999999e-12
+2Dh is 4.0000000000000004e-24
+
+Final position in nm is (-1.9501555903741299, -0.02705575827843697, 5.5615307172815465)
+Square of the final position in nm is (3.803106826667471, 0.0007320140560212107, 30.930623919266193)
+--------------------------------
+Position number 1, time 0.0000
+Position is 0.0000, 0.0000, 6.0000 nm
+Square of the position is 0.0000, 0.0000, 36.0000 nm^2
+Position number 1, time 0.0000
+Position is 0.0000, 0.0000, 6.0000 nm
+Square of the position is 0.0000, 0.0000, 36.0000 nm^2
+Position number 2, time 0.0000
+Position is -0.1333, 1.2313, 5.9109 nm
+Square of the position is 0.0178, 1.5161, 34.9391 nm^2
+Position number 3, time 0.0000
+Position is -1.0802, 1.0411, 5.9789 nm
+Square of the position is 1.1668, 1.0840, 35.7467 nm^2
+Position number 4, time 0.0000
+Position is -1.6013, 1.6218, 5.5893 nm
+Square of the position is 2.5641, 2.6302, 31.2407 nm^2
+Position number 5, time 0.0000
+Position is -3.0954, 0.6196, 5.1216 nm
+Square of the position is 9.5817, 0.3839, 26.2311 nm^2
+Position number 6, time 0.0000
+Position is -3.6356, 1.2544, 6.0621 nm
+Square of the position is 13.2173, 1.5734, 36.7492 nm^2
+Position number 7, time 0.0000
+Position is -3.2691, 2.2076, 6.9172 nm
+Square of the position is 10.6870, 4.8737, 47.8477 nm^2
+Position number 8, time 0.0000
+Position is -4.9001, 2.1724, 6.6409 nm
+Square of the position is 24.0108, 4.7193, 44.1009 nm^2
+Position number 9, time 0.0000
+Position is -4.3001, 3.8242, 6.7448 nm
+Square of the position is 18.4909, 14.6245, 45.4920 nm^2
+Position number 10, time 0.0000
+Position is -5.6850, 3.5486, 6.7602 nm
+Square of the position is 32.3196, 12.5927, 45.7002 nm^2
+Average values of possition:
+(-6.02020474379542e-15, 2.747464929001604e-15, 7.999469712087297e-15)
+Average square values of possition:
+(3.624286515721687e-23, 7.548563536093789e-24, 6.399151567460204e-23)
+sqrt(2Dh)*3.4 is 6.799999999999999e-12
+2Dh is 4.0000000000000004e-24
+
+Final position in nm is (-6.02020474379542, 2.747464929001604, 7.999469712087298)
+Square of the final position in nm is (36.242865157216876, 7.548563536093789, 63.991515674602034)
+--------------------------------
+Position number 1, time 0.0000
+Position is 0.0000, 0.0000, 6.0000 nm
+Square of the position is 0.0000, 0.0000, 36.0000 nm^2
+Position number 1, time 0.0000
+Position is 0.0000, 0.0000, 6.0000 nm
+Square of the position is 0.0000, 0.0000, 36.0000 nm^2
+Position number 2, time 0.0000
+Position is -1.1238, 0.0100, 6.3662 nm
+Square of the position is 1.2629, 0.0001, 40.5286 nm^2
+Position number 3, time 0.0000
+Position is -2.1375, -0.7042, 7.4031 nm
+Square of the position is 4.5691, 0.4959, 54.8059 nm^2
+Position number 4, time 0.0000
+Position is -2.4732, -0.8772, 7.3984 nm
+Square of the position is 6.1168, 0.7695, 54.7368 nm^2
+Position number 5, time 0.0000
+Position is -2.4965, -0.0676, 7.3125 nm
+Square of the position is 6.2326, 0.0046, 53.4729 nm^2
+Position number 6, time 0.0000
+Position is -2.7872, 0.4454, 7.2641 nm
+Square of the position is 7.7687, 0.1984, 52.7668 nm^2
+Position number 7, time 0.0000
+Position is -3.3072, -0.4131, 7.4532 nm
+Square of the position is 10.9374, 0.1706, 55.5506 nm^2
+Position number 8, time 0.0000
+Position is -3.7164, 0.4024, 6.2903 nm
+Square of the position is 13.8116, 0.1619, 39.5681 nm^2
+Position number 9, time 0.0000
+Position is -4.2692, 1.1409, 6.7312 nm
+Square of the position is 18.2264, 1.3017, 45.3089 nm^2
+Position number 10, time 0.0000
+Position is -4.1687, 1.6606, 6.5671 nm
+Square of the position is 17.3778, 2.7575, 43.1265 nm^2
+Average values of possition:
+(-3.792598380565492e-15, 1.2824333000376583e-15, 5.207668853387984e-15)
+Average square values of possition:
+(1.4383802476267995e-23, 1.6446351690454785e-24, 2.7119814886547325e-23)
+sqrt(2Dh)*3.4 is 6.799999999999999e-12
+2Dh is 4.0000000000000004e-24
+
+Final position in nm is (-3.7925983805654924, 1.2824333000376582, 5.207668853387984)
+Square of the final position in nm is (14.383802476267995, 1.6446351690454784, 27.11981488654732)
+--------------------------------
+Position number 1, time 0.0000
+Position is 0.0000, 0.0000, 6.0000 nm
+Square of the position is 0.0000, 0.0000, 36.0000 nm^2
+Position number 1, time 0.0000
+Position is 0.0000, 0.0000, 6.0000 nm
+Square of the position is 0.0000, 0.0000, 36.0000 nm^2
+Position number 2, time 0.0000
+Position is -2.5121, 1.4891, 4.4414 nm
+Square of the position is 6.3104, 2.2174, 19.7259 nm^2
+Position number 3, time 0.0000
+Position is -3.6638, -1.5798, 7.2420 nm
+Square of the position is 13.4231, 2.4958, 52.4462 nm^2
+Position number 1, time 0.0000
+Position is 0.0000, 0.0000, 6.0000 nm
+Square of the position is 0.0000, 0.0000, 36.0000 nm^2
+Average values of possition:
+(7.904519471727639e-15, -4.6069484684852205e-15, 2.5289571309418555e-14)
+Average square values of possition:
+(6.969740820775601e-24, 2.3675130970629047e-24, 7.134254805551321e-23)
+sqrt(2Dh)*3.4 is 6.799999999999999e-12
+2Dh is 4.0000000000000004e-24
+
+Final position in nm is (0.8817412425517464, -0.5139004947110578, 2.8210263899943304)
+Square of the final position in nm is (0.7774676188166976, 0.26409371846426993, 7.958189893044444)
+--------------------------------
+Position number 1, time 0.0000
+Position is 0.0000, 0.0000, 6.0000 nm
+Square of the position is 0.0000, 0.0000, 36.0000 nm^2
+Average values of possition:
+(9.427632677731811e-15, -3.679615463967713e-15, 4.8839363652870806e-14)
+Average square values of possition:
+(5.34392550661248e-24, 8.140666440055533e-25, 1.4341516695129365e-22)
+sqrt(2Dh)*3.4 is 6.799999999999999e-12
+2Dh is 4.0000000000000004e-24
+
+Final position in nm is (0.5668364147486251, -0.22123687977105871, 2.936466739628857)
+Square of the final position in nm is (0.32130352108507537, 0.048945756970833885, 8.62283691294653)
+--------------------------------
+Position number 1, time 0.0000
+Position is 0.0000, 0.0000, 6.0000 nm
+Square of the position is 0.0000, 0.0000, 36.0000 nm^2
+Average values of possition:
+(-5.094727843742174e-15, -8.565462506383435e-15, 2.469125996328463e-14)
+Average square values of possition:
+(2.9237381592067544e-24, 8.264148912040001e-24, 6.867252266255054e-23)
+sqrt(2Dh)*3.4 is 6.799999999999999e-12
+2Dh is 4.0000000000000004e-24
+
+Final position in nm is (-0.5738752390469621, -0.9648222621815365, 2.781248213524344)
+Square of the final position in nm is (0.32933278999120796, 0.9308819976010977, 7.735341625232356)
+--------------------------------
+Position number 1, time 0.0000
+Position is 0.0000, 0.0000, 6.0000 nm
+Square of the position is 0.0000, 0.0000, 36.0000 nm^2
+Position number 1, time 0.0000
+Position is 0.0000, 0.0000, 6.0000 nm
+Square of the position is 0.0000, 0.0000, 36.0000 nm^2
+Average values of possition:
+(1.9737948462671068e-16, 4.24729980750632e-15, 3.2205784877578693e-14)
+Average square values of possition:
+(3.59779338021062e-27, 1.6659349251691162e-24, 9.578554451171432e-23)
+sqrt(2Dh)*3.4 is 6.799999999999999e-12
+2Dh is 4.0000000000000004e-24
+
+Final position in nm is (0.018227798025792104, 0.3922338899234011, 2.974172027659514)
+Square of the final position in nm is (0.00033225262086907057, 0.1538474244044427, 8.845699250112306)
+--------------------------------
+Position number 1, time 0.0000
+Position is 0.0000, 0.0000, 6.0000 nm
+Square of the position is 0.0000, 0.0000, 36.0000 nm^2
+Position number 1, time 0.0000
+Position is 0.0000, 0.0000, 6.0000 nm
+Square of the position is 0.0000, 0.0000, 36.0000 nm^2
+Position number 1, time 0.0000
+Position is 0.0000, 0.0000, 6.0000 nm
+Square of the position is 0.0000, 0.0000, 36.0000 nm^2
+Average values of possition:
+(-4.95381402223828e-15, -9.939797594934674e-16, 2.963203118159063e-14)
+Average square values of possition:
+(2.4462971505818795e-24, 9.848835756315005e-26, 8.752913915401268e-23)
+sqrt(2Dh)*3.4 is 6.799999999999999e-12
+2Dh is 4.0000000000000004e-24
+
+Final position in nm is (-0.4938209508068229, -0.09908487232510628, 2.9538690283368614)
+Square of the final position in nm is (0.24385913145575464, 0.009817811923682612, 8.725342236567753)
+--------------------------------
+Position number 1, time 1e-15
+Position is 0.0000, 0.0000, 5.5000 nm
+Square of the position is 0.0000, 0.0000, 30.2500 nm^2
+Average values of possition:
+(5.543888061698985e-15, -4.1734339061130336e-15, 4.245606749646718e-14)
+Average square values of possition:
+(2.1423926385622473e-24, 1.2141077799413767e-24, 1.256462965143446e-22)
+sqrt(2Dh)*3.4 is 6.799999999999999e-12
+2Dh is 4.0000000000000004e-24
+
+Final time in seconds is 6.970599999999818e-11
+Final position in nm is (0.3864422612287895, -0.29091338385951515, 2.959442640908741)
+Square of the final position in nm is (0.14933762126362, 0.0846305969085936, 8.758300744828903)
+--------------------------------
+Position number 1, time 1e-15
+Position is 0.0000, 0.0000, 5.5000 nm
+Square of the position is 0.0000, 0.0000, 30.2500 nm^2
+Position number 2, time 1.0000010000002738e-09
+Position is -1.6087, -2.8359, 4.5047 nm
+Square of the position is 2.5878, 8.0424, 20.2921 nm^2
+Position number 3, time 2.000000999905455e-09
+Position is -0.3367, -2.6587, 6.7655 nm
+Square of the position is 0.1134, 7.0686, 45.7719 nm^2
+Position number 4, time 3.000000999810636e-09
+Position is -0.2955, -1.5350, 5.8521 nm
+Square of the position is 0.0873, 2.3563, 34.2472 nm^2
+Position number 5, time 4.000000999829434e-09
+Position is -1.4388, -1.9945, 5.6875 nm
+Square of the position is 2.0700, 3.9780, 32.3476 nm^2
+Position number 6, time 5.0000010001482055e-09
+Position is -2.6649, -5.9400, 3.8586 nm
+Square of the position is 7.1017, 35.2836, 14.8888 nm^2
+Position number 7, time 6.000001000466977e-09
+Position is -7.2983, -6.2143, 5.7097 nm
+Square of the position is 53.2652, 38.6175, 32.6001 nm^2
+Position number 8, time 7.000001000785748e-09
+Position is -4.5837, -9.2737, 5.9950 nm
+Square of the position is 21.0103, 86.0014, 35.9406 nm^2
+Position number 9, time 8.000001001104519e-09
+Position is -2.3915, -7.3828, 4.7116 nm
+Square of the position is 5.7193, 54.5052, 22.1989 nm^2
+Position number 10, time 9.00000100142329e-09
+Position is -2.7577, -10.2424, 4.5038 nm
+Square of the position is 7.6049, 104.9060, 20.2846 nm^2
+Average values of possition:
+(-2.5667990610061487e-16, -9.487038710541332e-16, 5.921066128589621e-16)
+Average square values of possition:
+(6.588457419582044e-25, 9.000390349530973e-24, 3.505902409913127e-24)
+sqrt(2Dh)*3.4 is 6.799999999999999e-12
+2Dh is 4.0000000000000004e-24
+
+Final time in seconds is 1.000000000174206e-08
+Final position in nm is (-2.566799061006148, -9.48703871054133, 5.92106612858962)
+Square of the final position in nm is (6.588457419582044, 90.00390349530971, 35.059024099131264)
+--------------------------------
+Position number 1, time 1e-15
+Position is 0.0000, 0.0000, 5.5000 nm
+Square of the position is 0.0000, 0.0000, 30.2500 nm^2
+Position number 2, time 1.0000010000002738e-09
+Position is 2.7788, 2.1522, 6.8899 nm
+Square of the position is 7.7217, 4.6322, 47.4711 nm^2
+Position number 3, time 2.000000999905455e-09
+Position is 2.9502, 2.0226, 7.4054 nm
+Square of the position is 8.7039, 4.0909, 54.8407 nm^2
+Position number 4, time 3.000000999810636e-09
+Position is 3.1066, 5.2943, 4.7219 nm
+Square of the position is 9.6513, 28.0291, 22.2961 nm^2
+Position number 5, time 4.000000999829434e-09
+Position is 2.0986, 4.6627, 5.4860 nm
+Square of the position is 4.4040, 21.7406, 30.0967 nm^2
+Position number 6, time 5.0000010001482055e-09
+Position is 2.1740, 0.8315, 5.3642 nm
+Square of the position is 4.7263, 0.6913, 28.7748 nm^2
+Position number 7, time 6.000001000466977e-09
+Position is 2.9669, -0.3539, 5.3032 nm
+Square of the position is 8.8027, 0.1252, 28.1243 nm^2
+Position number 8, time 7.000001000785748e-09
+Position is -0.0331, 2.0368, 4.8896 nm
+Square of the position is 0.0011, 4.1484, 23.9084 nm^2
+Position number 9, time 8.000001001104519e-09
+Position is -0.8140, 3.1076, 3.2339 nm
+Square of the position is 0.6627, 9.6573, 10.4581 nm^2
+Average values of possition:
+(-1.7986253293148082e-16, 3.027885128066548e-16, 7.61056842335967e-17)
+Average square values of possition:
+(2.6923696868260686e-25, 7.630132360172633e-25, 4.820448770374382e-26)
+sqrt(2Dh)*3.4 is 6.799999999999999e-12
+2Dh is 4.0000000000000004e-24
+
+Final time in seconds is 8.322490001207319e-09
+Final position in nm is (-1.4969041316969196, 2.5199543699482563, 0.6333887959772662)
+Square of the final position in nm is (2.2407219794913087, 6.3501700266213135, 0.4011813668695309)
+--------------------------------

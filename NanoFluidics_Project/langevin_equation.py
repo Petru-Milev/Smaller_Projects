@@ -28,7 +28,7 @@ def calculate_electric_field(pos_particle, pos_pore, charge_pore, relative_permi
     #return a np.array([E_x, E_y, E_z])
     #We have a charged pore which is generating an electric field
     #We have a charged particle which is moving in this electric field
-    #https://en.wikipedia.org/wiki/Electric_field#:~:text=An%20electric%20field%20(sometimes%20E,their%20charges%20are%20the%20same.
+    #https://en.wikipedia.org/wiki/Electric_field
     epsilon_0 = 8.8541878128e-12 #F/m
     epsilon = relative_permittivity*epsilon_0
     pos_particle = np.array(pos_particle)
@@ -62,7 +62,7 @@ def make_plot(x_array, y_array, z_array, pore_radius, particle_radius):
 
     plt.show()
     """
-    fig = plt.figure()
+    fig = plt.figure(figsize = (8, 8))
     ax = plt.axes(projection="3d")
     # Plot the wireframe
     u = np.linspace(0, 2*np.pi, 100)
@@ -73,11 +73,12 @@ def make_plot(x_array, y_array, z_array, pore_radius, particle_radius):
     ax.plot_wireframe(x, y, z, color='b')
     # Plot the data set
     ax.plot(x_array[::10000], y_array[::10000], z_array[::10000])
-    ax.set_xlabel('X Label')
-    ax.set_ylabel('Y Label')
-    ax.set_zlabel('Z Label')
+    ax.set_xlabel('X axis (nm)')
+    ax.set_ylabel('Y axis (nm)')
+    ax.set_zlabel('Z axis (nm)')
     ax.set_zlim(bottom = 0)
 
+    plt.tight_layout()
     plt.show()
     return
 
@@ -103,7 +104,7 @@ def run_simulation(object, pos):
         if count % record_possition == 0:
             #This is recording the stats over time
             with open(path_log, "a") as file:
-                file.write(f"Position number {count_positions_registered}, time {t:.4f}\n")
+                file.write(f"Position number {count_positions_registered}, time {t}\n")
                 file.write(f"Position is {x*1e+9:.4f}, {y*1e+9:.4f}, {z*1e+9:.4f} nm\n")
                 file.write(f"Square of the position is {(x*1e+9)**2:.4f}, {(y*1e+9)**2:.4f}, {(z*1e+9)**2:.4f} nm^2\n")
                 count_positions_registered += 1
@@ -153,6 +154,7 @@ def run_simulation(object, pos):
         file.write(f"Average square values of possition:\n{xx_average*(1e-9)**2, yy_average*(1e-9)**2, zz_average*(1e-9)**2}\n")
         file.write(f"sqrt(2Dh)*3.4 is {np.sqrt(2*object.D*object.dt)*3.4}\n")
         file.write(f"2Dh is {2*object.D*object.dt}\n\n")
+        file.write(f"Final time in seconds is {t}\n")
         file.write(f"Final position in nm is {x*1e+9, y*1e+9, z*1e+9}\n")
         file.write(f"Square of the final position in nm is {(x*1e+9)**2, (y*1e+9)**2, (z*1e+9)**2}\n")
         file.write("--------------------------------\n")
@@ -176,6 +178,8 @@ def run_simulation(object, pos):
     print()
     print(f"position -1 is {x_array[-1], y_array[-1], z_array[-1]}")
     print(f"Final position is {x*1e+9, y*1e+9, z*1e+9}")
+    print(f"Pore charge is {object.pore_charge}")
+    print(f"Particle charge is {object.z*object.e}")
     #print(f"Pore Radius is {object.pore_radius*1e+9}nm")
     #print(f"Particle Radius is {object.particle_radius*1e+9}nm")
     #print(f"Effective Radius of Pore is {(object.pore_radius - 2*object.particle_radius)*1e+9}nm")
@@ -219,18 +223,18 @@ Gamma = 2kB*T/D
 Gamma = 2*1.38*10^(-23)*300/2.06*10^(-9) = 4.02*10^(-12) kg/s
 """
 
-test = Physical_System(name = "Test_e-11", dt = 1e-15, t = 1e-8, gamma = 4.02e-12, particle_radius = 1*1e-9, pore_radius = 3*1e-9, z = 1.0, pore_position = [0, 0, 0], D = 2*1e-9, pore_charge = -2) #-1.4 * 1e-10
+#test = Physical_System(name = "Test_e-11", dt = 1e-15, t = 1e-8, gamma = 4.02e-12, particle_radius = 1*1e-9, pore_radius = 3*1e-9, z = 1.0, pore_position = [0, 0, 0], D = 2*1e-9, pore_charge = -1000) #-1.4 * 1e-10
 #system_two = Physical_System(name = "System_two_e-8", dt = 1e-15, t = 1e-8, gamma = 4.02e-12, particle_radius = 1*1e-9, pore_radius = 5*1e-9, z = 1.0, pore_position = [0, 0, 0], D = 2*1e-9, pore_charge = 1) #-1.4 * 1e-10
 #system_three = Physical_System(name = "System_three_e-7", dt = 1e-15, t = 1e-7, gamma = 4.02e-12, particle_radius = 1*1e-9, pore_radius = 5*1e-9, z = 1.0, pore_position = [0, 0, 0], D = 2*1e-9, pore_charge = 1) #-1.4 * 1e-10
 #system_four = Physical_System(name = "System_four_e-6", dt = 1e-15, t = 1e-6, gamma = 4.02e-12, particle_radius = 1*1e-9, pore_radius = 5*1e-9, z = 1.0, pore_position = [0, 0, 0], D = 2*1e-9, pore_charge = 1) #-1.4 * 1e-10
-pos = np.array([0, 0, 6*1e-9]) #Initial coordinates of the particle
-run_simulation(test, pos)
+#pos = np.array([0, 0, 6*1e-9]) #Initial coordinates of the particle
+
 #run_simulation(system_one, pos)
 #run_simulation(system_two, pos)
 #run_simulation(system_three, pos)
 #run_simulation(system_four, pos)
-
-#system_one = Physical_System(name = "System_one_e-9", dt = 1e-15, t = 1e-9, gamma = 4.02e-12, particle_radius = 1*1e-9, pore_radius = 5*1e-9, z = 1.0, pore_position = 0.0, D = 2*1e-9, electric_field = np.array([0.0, 0.0, 0.0])) #-1.4 * 1e-10
-
+test = Physical_System(name = "Test_e-11", dt = 1e-15, t = 1e-8, gamma = 4.02e-12, particle_radius = 1*1e-9, pore_radius = 3*1e-9, z = 1.0, pore_position = [0, 0, 0], D = 2*1e-9, pore_charge = -10) #-1.4 * 1e-10
+pos = np.array([0, 0, 5.5*1e-9]) #Initial coordinates of the particle
+run_simulation(test, pos)
 #for i in range(1,20000):
     #run_simulation(system_one, pos)
